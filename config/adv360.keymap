@@ -58,6 +58,30 @@
             key-positions = <21>;
             layers = <0>;
         };
+
+        combo_ide_back_fn {
+            bindings = <&kp LA(LG(LEFT))>;
+            key-positions = <43>;
+            layers = <2>;
+        };
+
+        combo_ide_forward_fn {
+            bindings = <&kp LA(LG(RIGHT))>;
+            key-positions = <44>;
+            layers = <2>;
+        };
+
+        combo_prev_tab_fn {
+            bindings = <&kp LC(LEFT)>;
+            key-positions = <63>;
+            layers = <2>;
+        };
+
+        combo_next_tab_fn {
+            bindings = <&kp LC(RIGHT)>;
+            key-positions = <64>;
+            layers = <2>;
+        };
     };
 
     keymap {
