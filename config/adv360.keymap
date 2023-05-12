@@ -39,6 +39,21 @@
             bindings = <&kp LA(LG(LEFT))>;
             key-positions = <34>;
         };
+
+        combo_ide_forward {
+            bindings = <&kp LA(LG(RIGHT))>;
+            key-positions = <41>;
+        };
+
+        combo_prev_tab {
+            bindings = <&kp LA(LEFT)>;
+            key-positions = <20>;
+        };
+
+        combo_next_tab {
+            bindings = <&kp LA(RIGHT)>;
+            key-positions = <21>;
+        };
     };
 
     keymap {
