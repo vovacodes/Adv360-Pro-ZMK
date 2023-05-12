@@ -38,21 +38,25 @@
         combo_ide_back {
             bindings = <&kp LA(LG(LEFT))>;
             key-positions = <34>;
+            layers = <0>;
         };
 
         combo_ide_forward {
             bindings = <&kp LA(LG(RIGHT))>;
             key-positions = <41>;
+            layers = <0>;
         };
 
         combo_prev_tab {
             bindings = <&kp LA(LEFT)>;
             key-positions = <20>;
+            layers = <0>;
         };
 
         combo_next_tab {
             bindings = <&kp LA(RIGHT)>;
             key-positions = <21>;
+            layers = <0>;
         };
     };
 
