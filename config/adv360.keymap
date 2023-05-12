@@ -35,9 +35,9 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
+        combo_ide_back {
             bindings = <&kp LA(LG(LEFT))>;
-            key-positions = <>;
+            key-positions = <34>;
         };
     };
 
