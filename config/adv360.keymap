@@ -48,13 +48,13 @@
         };
 
         combo_prev_tab {
-            bindings = <&kp LA(LEFT)>;
+            bindings = <&kp LC(LEFT)>;
             key-positions = <20>;
             layers = <0>;
         };
 
         combo_next_tab {
-            bindings = <&kp LA(RIGHT)>;
+            bindings = <&kp LC(RIGHT)>;
             key-positions = <21>;
             layers = <0>;
         };
