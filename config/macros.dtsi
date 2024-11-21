@@ -2,13 +2,13 @@ macro_ide_next_tab: macro_ide_next_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_ide_next_tab";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp RIGHT>;
+bindings = <&sk LCTRL>, <&kp RIGHT>;
 };
 macro_ide_prev_tab: macro_ide_prev_tab{
 compatible = "zmk,behavior-macro";
 label = "macro_ide_prev_tab";
 #binding-cells = <0>;
-bindings = <&kp LEFT_CONTROL>, <&kp LEFT>;
+bindings = <&sk LCTRL>, <&kp LEFT>;
 };
 macro_ide_forward: macro_ide_forward{
 compatible = "zmk,behavior-macro";
